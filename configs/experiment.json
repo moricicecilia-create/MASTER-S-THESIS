@@ -1,0 +1,54 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "threads": 4,
+  "split": {
+    "train_context": 0.6,
+    "validation": 0.1,
+    "calibration": 0.15,
+    "test": 0.15
+  },
+  "missingness": {
+    "cell_rates": [
+      0.1,
+      0.3,
+      0.5
+    ],
+    "feature_rates": [
+      0.1,
+      0.3,
+      0.5
+    ],
+    "augmentation_cell_rates": [
+      0.1,
+      0.3
+    ],
+    "mask_seed_offset_calibration": 10000,
+    "mask_seed_offset_test": 20000
+  },
+  "calibration": {
+    "methods": [
+      "No additional calibration",
+      "Reference calibration",
+      "Missingness-augmented calibration"
+    ],
+    "temperature_min": 0.05,
+    "temperature_max": 20.0,
+    "reliability_bins": 5,
+    "ece_bins": 5
+  },
+  "mlp": {
+    "hidden_layer_sizes": [
+      64,
+      32
+    ],
+    "alpha": 0.0001,
+    "learning_rate_init": 0.001,
+    "max_epochs": 500,
+    "patience": 30
+  },
+  "allow_large_tabpfn_cpu": false
+}

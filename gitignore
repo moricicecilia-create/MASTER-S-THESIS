@@ -1,0 +1,35 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# Training artifacts and downloaded model weights
+catboost_info/
+AutogluonModels/
+.cache/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Temporary execution files
+_attempts/
+.run.lock
+*.tmp
+
+# Keep dataset files, CSV results, plots and run metadata versioned.

@@ -1,0 +1,10 @@
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+matplotlib>=3.8
+psutil>=5.9
+catboost>=1.2
+# Install foundation-model packages in the already validated thesis environment:
+# tabpfn, tabicl, autogluon.tabular
+# Run python freeze_environment.py in that environment to record exact versions.

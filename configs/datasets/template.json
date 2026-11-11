@@ -1,0 +1,16 @@
+{
+  "name": "example",
+  "path": "data/example/example.csv",
+  "format": "csv",
+  "header": 0,
+  "separator": ",",
+  "encoding": "utf-8",
+  "target_column": "target",
+  "positive_class": "yes",
+  "negative_class": "no",
+  "categorical_columns": [],
+  "numeric_columns": [],
+  "drop_columns": [],
+  "na_values": ["?"],
+  "duplicate_policy": "error"
+}

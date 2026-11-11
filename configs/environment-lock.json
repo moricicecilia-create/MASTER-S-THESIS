@@ -1,0 +1,19 @@
+
+{
+  "python": "3.13.15",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "architecture": "64-bit",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.8.0",
+    "torch": "2.13.0+cpu",
+    "tabpfn": "9.1.0",
+    "tabicl": "2.2.0",
+    "tabdpt": "1.2.0",
+    "autogluon.tabular": "1.6.3",
+    "catboost": "1.2.10",
+    "psutil": "7.2.2"
+  }
+}

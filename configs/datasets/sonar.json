@@ -1,0 +1,14 @@
+{
+  "name": "sonar",
+  "path": "data/sonar/sonar.all-data",
+  "format": "csv",
+  "header": null,
+  "separator": ",",
+  "feature_prefix": "feature_",
+  "target_column": "target",
+  "positive_class": "M",
+  "negative_class": "R",
+  "categorical_columns": [],
+  "drop_columns": [],
+  "description": "UCI Sonar binary classification dataset: 60 numeric features and target labels R/M. The raw dataset is not bundled; place sonar.all-data in data/sonar/."
+}

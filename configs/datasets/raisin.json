@@ -1,0 +1,13 @@
+{
+  "name": "raisin",
+  "path": "data/raisin/Raisin_Dataset.arff",
+  "format": "arff",
+  "encoding": "utf-8",
+  "target_column": "Class",
+  "positive_class": "Besni",
+  "negative_class": "Kecimen",
+  "categorical_columns": [],
+  "drop_columns": [],
+  "duplicate_policy": "error",
+  "description": "UCI Raisin: seven numeric predictors; Besni=1, Kecimen=0. With seven features, feature missingness nominal rates 10/30/50 percent mask 1/2/4 columns (14.29/28.57/57.14 percent), using the unchanged common rounding rule."
+}
