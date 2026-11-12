@@ -1,0 +1,14 @@
+{
+  "name": "messidor",
+  "path": "data/diabetic+retinopathy+debrecen/messidor.csv",
+  "format": "csv",
+  "header": 0,
+  "separator": ",",
+  "target_column": "target",
+  "positive_class": "1",
+  "negative_class": "0",
+  "categorical_columns": [],
+  "drop_columns": [],
+  "description": "Diabetic Retinopathy Debrecen (Messidor features), 1151 rows, 19 numeric predictors, binary target. Converted losslessly from UCI ARFF; 5 exact duplicate predictor rows are present and require leakage-safe handling.",
+  "duplicate_policy": "allow"
+}
